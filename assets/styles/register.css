@@ -1,0 +1,88 @@
+.Register {
+    background-image: url('./../img/Background-paw.png');
+    background-color: #ffffff;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Register__Wrapper {
+    width: 30vw;
+}
+
+.Register__container {
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow:  0px 2px 15px 0px rgba(100,100,100,0.5);
+    padding: 25px 50px;
+    border-radius: 30px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.Register__container-form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Register__container-form > a {
+    font-weight: bold;
+    color: #252D51;
+    align-self: flex-end;
+}
+
+.Register__container-form p {
+    font-weight: 900;
+    color: #252D51;
+}
+
+.Register__container-form p > a {
+    color: #F9A971;
+}
+
+.Register__container-form input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid #F9A971;
+    margin-bottom: 35px;
+    padding: 5px 15px;
+}
+
+.Register__container-form select {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid #F9A971;
+    margin-bottom: 35px;
+    appearance: none;
+    padding: 5px 15px;
+    background-image: url('./../img/Triangle.svg');
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+}
+
+.Register__container-form select:focus {
+    outline: 0px;
+}
+
+.Register__container-form input:focus {
+    outline:0px;
+    border-bottom: 2px solid #F8F2E4;
+}
+
+.btn-dogger-register {
+    margin: 40px 0 40px 0;
+    background-color: #F9A971 !important;
+    height: 75px;
+    border-radius: 30px;
+    border: 0;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+}
+  

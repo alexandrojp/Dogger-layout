@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogger - Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/styles/Global.css">
+    <link rel="stylesheet" href="./assets/styles/login.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <header class="Navbar">
+        <div class="Navbar__Logo">
+            <img src="./assets/img/logoDogger.png" alt="Dogger Logo">
+        </div>
+        <a href="./register.html" class="Navbar__Button">Sign Up</a>
+    </header>
+    <div class="Login container-fluid">
+        <div class="Login__Wrapper">
+            <div class="Notification">
+                <h6>Notificacion</h6>
+                <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            </div>
+            <div class="Login__container">
+                <h2>Login</h1>
+                <p>Please login to continue</h4>
+                <form class="Login__container-form">
+                    <input type="text" placeholder="Username">
+                    <input type="password" placeholder="Password">
+                    <a href="#">Forgot password?</a>
+                    <button onclick="login();" class="btn-dogger-login">Login</button>
+                    <p>Don't have an account? <a href="./register.html">Sign Up</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function login() {
+            window.location = '/app-owner.html'
+        }
+    </script>
+</body>
+</html>
